@@ -1,6 +1,4 @@
-﻿using System;
-using Skogsaas.Monolith.Plugins;
-using Skogsaas.Legion;
+﻿using Skogsaas.Legion;
 using System.Collections.Generic;
 
 namespace Skogsaas.Monolith.Plugins.RestJson
