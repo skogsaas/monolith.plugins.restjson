@@ -1,6 +1,6 @@
 var target = Argument("target", "Default");
 var configuration = Argument("buildconfiguration", "Release");
-var source = Argument("buildsource", "Klondike");
+var source = Argument("buildsource", "http://192.168.1.100:81/nuget/Default/");
 var packages = "./packages";
 var artifacts = "./artifacts/";
 var solution = "./RestJson.sln";
