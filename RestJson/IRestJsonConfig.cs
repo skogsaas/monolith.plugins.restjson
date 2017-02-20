@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Skogsaas.Monolith.Plugins.RestJson
 {
-    public interface IRestJsonConfig : Configuration.Identifier
+    public interface IRestJsonConfig : Configuration.IIdentifier
     {
         int Port { get; set; }
         List<string> Channels { get; set; }

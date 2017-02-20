@@ -47,20 +47,20 @@
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Skogsaas.Legion, Version=1.0.6235.29435, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Skogsaas.Legion.1.0.6235.29435\lib\net452\Skogsaas.Legion.dll</HintPath>
+    <Reference Include="Skogsaas.Legion, Version=1.0.6259.20186, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Skogsaas.Legion.1.0.6259.20186\lib\net452\Skogsaas.Legion.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Skogsaas.Legion.Json, Version=1.0.6252.19459, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Skogsaas.Legion.Json.1.0.6252.19459\lib\net452\Skogsaas.Legion.Json.dll</HintPath>
+    <Reference Include="Skogsaas.Legion.Json, Version=1.0.6259.20208, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Skogsaas.Legion.Json.1.0.6259.20208\lib\net452\Skogsaas.Legion.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Skogsaas.Legion.RestJson, Version=1.0.6252.19472, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Skogsaas.Legion.RestJson.1.0.6252.19472\lib\net452\Skogsaas.Legion.RestJson.dll</HintPath>
+    <Reference Include="Skogsaas.Legion.RestJson, Version=1.0.6259.20234, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Skogsaas.Legion.RestJson.1.0.6259.20234\lib\net452\Skogsaas.Legion.RestJson.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Skogsaas.Monolith, Version=1.0.6252.19562, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Skogsaas.Monolith.1.0.6252.19562\lib\net452\Skogsaas.Monolith.dll</HintPath>
+    <Reference Include="Skogsaas.Monolith, Version=1.0.6259.21075, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Skogsaas.Monolith.1.0.6259.21075\lib\net452\Skogsaas.Monolith.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
