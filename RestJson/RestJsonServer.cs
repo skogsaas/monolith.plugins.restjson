@@ -13,6 +13,7 @@ namespace Skogsaas.Monolith.Plugins.RestJson
         public void initialize()
         {
             this.configChannel = Manager.Create(Configuration.Constants.Channel);
+            this.configChannel.RegisterType(typeof(IRestJsonConfig));
             this.configChannel.SubscribePublish(typeof(IRestJsonConfig), onConfigPublished);
         }
 
