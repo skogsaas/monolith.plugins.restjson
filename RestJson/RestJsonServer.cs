@@ -1,4 +1,5 @@
 ﻿using Skogsaas.Legion;
+using Skogsaas.Monolith.Logging;
 using System.Collections.Generic;
 
 namespace Skogsaas.Monolith.Plugins.RestJson
@@ -28,7 +29,10 @@ namespace Skogsaas.Monolith.Plugins.RestJson
                     channels.Add(Manager.Create(name));
                 }
 
+                Logger.Info($"Creating Rest server on port <{config.Port}> with the channels <{channels}>");
                 this.server = new Skogsaas.Legion.RestJson.Server(config.Port, channels.ToArray());
+
+                Logger.Info($"Starting Rest server");
                 this.server.Start();
             }
         }
